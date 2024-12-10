@@ -1,0 +1,39 @@
+:root {
+    --buttons-border_radius: 24px;
+	--primary-button-padding-demo: 16px 24.5px 14px 26.5px;
+	--normal-state_light-background_color-demo: #ba4270;
+	--normal-state_light-color-demo: #fbfcfe;
+
+	--normal-state_light-background_color-demo: #d96d97;
+	--normal-state_light-color-demo: #fbfcfe;
+
+	--normal-state_light-background_color-demo: #dca1b7;
+	--normal-state_light-color-demo: #fbfcfe;
+
+
+	--secondary-button-padding-light-about: 16px 32px 14px 32px;
+	--normal-state-light-color-about: #fbfcfe;
+	--normal-state-light-border-about: 1px solid #fbfcfe;
+	--normal-state-light-background_color-about: #1b262f;
+
+	--hover-state-light-color-about: #1b262f;
+	--hover-state-light-border-about: 1px solid #fbfcfe;
+	--hover-state-light-background_color-about: #ffffff;
+
+	--disabled-state-light-color-about: #8d9097;
+	--disabled-state-light-border-about: 1px solid #8d9097;
+	--disabled-state-light-background_color-about: #1b262f;
+
+	--secondary-button-padding-dark-submit: 16px 25px 14px 28px;
+	--normal-state-dark-color-submit: #36536b;
+	--normal-state-dark-border-submit: 1px solid #36536b;
+	--normal-state-dark-background_color-submit: #ffffff;
+
+	--hover-state-dark-color-submit: #FFFFFF;
+	--hover-state-dark-border-submit: 1px solid #36536B;
+	--hover-state-dark-background_color-submit: #36536B;
+
+	--disabled-state-dark-color-submit: #9ba9b4;
+	--disabled-state-dark-border-submit: 1px solid #9ba9b4;
+	--disabled-state-dark-background_color-submit: #FFFFFF;
+}

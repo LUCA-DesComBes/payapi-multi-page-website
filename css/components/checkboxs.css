@@ -1,0 +1,8 @@
+:root {
+    --check-box-normal: #cdd4da;
+
+    --check-box-activate: #ba4270;
+    --check-box-color_check-activate: #ffffff;
+
+    --check-box-disabled: #f5f6f8;
+}
