@@ -87,3 +87,15 @@ h1 {
         display: none;
     }
 }
+@media screen and (min-width: 769px) { 
+    header {
+        padding: 40px 165px 0 165px;
+        background-color: #fff;
+    }
+    a:hover {
+        color: var(--secondary-San-Juan-Blue);
+    }
+ nav {
+    gap: 680px;
+ }   
+}
