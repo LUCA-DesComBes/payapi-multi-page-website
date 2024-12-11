@@ -52,6 +52,16 @@
 .schedule {
 	color: var(--normal-state-light-color-demo);
 }
+.button-normal-state-light-about {
+	border-radius: var(--buttons-border-radius);
+	padding: var(--secondary-button-padding-light-about);
+	background-color: var(--normal-state-light-background-color-demo);
+	border: var(--normal-state-light-border-about);
+	background-color: var(--normal-state-light-background-color-about);
+}
+.about {
+	color: var(--normal-state-light-color-about);
+}
 @media screen and (min-width: 321px) {
 	.button-primary-light {
 		position: absolute;
