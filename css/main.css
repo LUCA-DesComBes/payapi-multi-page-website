@@ -142,7 +142,21 @@ h2 {
     font-family: var(--p-font-family);
     margin-bottom: 60px;
     line-height: var(--p-line-height);
+}	
+/* .second-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
+.third-sect {
+
+} */
+/* h3 {
+	font-size: 36px;
+	line-height: 36px;
+	color: var(--secondary-San-Juan-Blue);
+} */
 @media screen and (min-width: 321px) {
 	header {
 		display: flex;
@@ -217,12 +231,6 @@ h2 {
     .first-para {
         width: 80%;
         margin-bottom: 32px;
-    }
-    .second-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 }
 @media screen and (min-width: 769px) {
