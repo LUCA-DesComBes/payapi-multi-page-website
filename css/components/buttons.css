@@ -37,6 +37,12 @@
 	--disabled-state-dark-background-color-submit: #ffffff;
 }
 
+.button-primary-light-nav {
+	border-radius: var(--buttons-border-radius);
+	padding: var(--primary-button-padding-demo);
+	background-color: var(--normal-state-light-background-color-demo);
+	border: none;
+}
 .button-primary-light {
 	border-radius: var(--buttons-border-radius);
 	padding: var(--primary-button-padding-demo);
@@ -45,4 +51,25 @@
 }
 .schedule {
 	color: var(--normal-state-light-color-demo);
+}
+@media screen and (min-width: 321px) {
+	.button-primary-light {
+		position: absolute;
+		right: 200px;
+		border-radius: var(--buttons-border-radius);
+		padding: var(--primary-button-padding-demo);
+		background-color: var(--normal-state-light-background-color-demo);
+		border: none;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.button-primary-light {
+		z-index: 2;
+		position: initial;
+		border-radius: var(--buttons-border-radius);
+		padding: var(--primary-button-padding-demo);
+		background-color: var(--normal-state-light-background-color-demo);
+		border: none;
+	}
 }
