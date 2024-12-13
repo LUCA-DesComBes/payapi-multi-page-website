@@ -243,9 +243,37 @@ h3 {
 	color: var(--secondary-San-Juan-Blue);
 }
 footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--secondary-Mirage-Blue);
+	padding: 41px 120px 55px 120px;	
+}
+.logo-footer {
+	transform: scale(2);
+}
+.footer-row {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	transform: scale(2);
+}
+.footer-link {
+	margin: 40px 0;
+}
+.ul-footer {
+	display: flex;
+	flex-direction: column;
+	gap: 31px;
+	list-style: none;
+	padding: 0;
 	
 }
-
+.li-footer {
+	color: var(--primary-link-water-white);
+	opacity: 70%;
+}
 
 @media screen and (min-width: 321px) {
 	#phone {
