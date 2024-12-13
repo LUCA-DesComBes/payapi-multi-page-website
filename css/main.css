@@ -232,7 +232,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	padding: 0 23px 0 24px;
 	text-align: center;	
 }
@@ -242,6 +242,11 @@ h3 {
 	line-height: var(--h2-line-height);
 	color: var(--secondary-San-Juan-Blue);
 }
+footer {
+	
+}
+
+
 @media screen and (min-width: 321px) {
 	#phone {
 		top: 35%;
@@ -339,6 +344,8 @@ h3 {
 		justify-content: center;
 	}
 }
+
+
 @media screen and (min-width: 769px) {
 	#phone {
 		top: 20%;
