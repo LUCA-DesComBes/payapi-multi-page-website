@@ -143,20 +143,36 @@ h2 {
     margin-bottom: 60px;
     line-height: var(--p-line-height);
 }	
-/* .second-div {
+.second-div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-.third-sect {
-
-} */
-/* h3 {
+.third-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 23px 0 24px;
+}
+.second-h2 {
+	text-align: center;
 	font-size: 36px;
 	line-height: 36px;
+	font-weight: var(--font-weight-thin);
 	color: var(--secondary-San-Juan-Blue);
-} */
+	width: 100%;
+}
+.second-para {
+	text-align: center;
+	font-weight: var(--font-weight-thin);
+	font-size: var(--p-size);
+	line-height: var(--p-line-height);
+	font-family: var(--p-font-family);
+	color: var(--secondary-Light-San-Juan-Blue);
+	width: 95%;
+}
 @media screen and (min-width: 321px) {
 	header {
 		display: flex;
