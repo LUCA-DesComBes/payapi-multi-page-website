@@ -198,15 +198,36 @@ h2 {
 	width: 95%;
 	margin-bottom: 80px;
 }
-/* .avantages-section {
+.avantages-container {
+	display: flex;
+	flex-direction: column;
+}
+.avantages-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 48px;
+	font-family: var(--p-font-family);
+}
+h3 {
+	font-weight: var(--font-weight-bold);
+	font-size: var(--h3-small-size);
+	line-height: var(--h3-small-line-height);
+	color: var(--secondary-San-Juan-Blue);
+	margin: 32px 0 16px 0;
+}
+.avantages-para {
+	color: var(--secondary-Light-San-Juan-Blue);
+	font-size: var(--p-size);
+	line-height: var(--p-line-height);
+}
+.avantages-col {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
-	gap: 16px;
-	margin-bottom: 48px;
-} */
+}
 @media screen and (min-width: 321px) {
 	#phone {
 		top: 35%;
@@ -290,6 +311,11 @@ h2 {
 	}
 	.second-h2 {
 		font-size: var(--h2-size);
+	}
+	.avantages-container {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
 	}
 }
 @media screen and (min-width: 769px) {
@@ -397,5 +423,8 @@ h2 {
 	.second-para-reverse {
 		text-align: start;
 		width: 100%;
+	}
+	.avantages-para {
+		width: 70%;
 	}
 }
