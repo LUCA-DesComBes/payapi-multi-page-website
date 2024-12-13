@@ -43,7 +43,7 @@
 	background-color: var(--normal-state-light-background-color-demo);
 	border: none;
 }
-.button-primary-light {
+.button-primary-light, .button-primary-light-ready  {
 	border-radius: var(--buttons-border-radius);
 	padding: var(--primary-button-padding-demo);
 	background-color: var(--normal-state-light-background-color-demo);
@@ -78,6 +78,15 @@
 		z-index: 2;
 		position: absolute;
 		right: 60%;
+		border-radius: var(--buttons-border-radius);
+		padding: var(--primary-button-padding-demo);
+		background-color: var(--normal-state-light-background-color-demo);
+		border: none;
+	}
+	.button-primary-light-ready {
+		z-index: 2;
+		position: absolute;
+		right: 9.8%;
 		border-radius: var(--buttons-border-radius);
 		padding: var(--primary-button-padding-demo);
 		background-color: var(--normal-state-light-background-color-demo);

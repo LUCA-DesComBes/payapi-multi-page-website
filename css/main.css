@@ -228,6 +228,20 @@ h3 {
 	align-items: center;
 	justify-content: center;
 }
+.ready-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 50px;
+	padding: 0 23px 0 24px;
+	text-align: center;	
+}
+.ready {
+	font-weight: var(--font-weight-thin);
+	font-size: var(--h2-size);
+	line-height: var(--h2-line-height);
+	color: var(--secondary-San-Juan-Blue);
+}
 @media screen and (min-width: 321px) {
 	#phone {
 		top: 35%;
@@ -315,6 +329,13 @@ h3 {
 	.avantages-container {
 		flex-direction: row;
 		align-items: center;
+		justify-content: center;
+	}
+	.ready-section {
+		padding: 0;
+	}
+	.second-form {
+		display: flex;
 		justify-content: center;
 	}
 }
@@ -426,5 +447,14 @@ h3 {
 	}
 	.avantages-para {
 		width: 70%;
+	}
+	.ready-section {
+		flex-direction: row;
+		justify-content: center;
+		gap: 500px;
+	}
+	.second-form {
+		display: flex;
+		justify-content: center;
 	}
 }
