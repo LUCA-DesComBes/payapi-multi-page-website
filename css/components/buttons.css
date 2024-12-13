@@ -65,7 +65,7 @@
 @media screen and (min-width: 321px) {
 	.button-primary-light {
 		position: absolute;
-		right: 200px;
+		right: 150px;
 		border-radius: var(--buttons-border-radius);
 		padding: var(--primary-button-padding-demo);
 		background-color: var(--normal-state-light-background-color-demo);
@@ -76,7 +76,8 @@
 @media screen and (min-width: 769px) {
 	.button-primary-light {
 		z-index: 2;
-		position: initial;
+		position: absolute;
+		right: 60%;
 		border-radius: var(--buttons-border-radius);
 		padding: var(--primary-button-padding-demo);
 		background-color: var(--normal-state-light-background-color-demo);

@@ -53,6 +53,17 @@ header {
 	border-radius: 0 0 50% 50%;
 	margin-bottom: 144px;
 }
+.first-sect {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#phone {
+	position: absolute;
+	top: 100px;
+	width: 128px;
+	height: 240px;
+}
 nav {
 	display: none;
 }
@@ -109,14 +120,11 @@ a {
 	padding: 0 24px;
 }
 .second-sect {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background-color: var(--secondary-Mirage-Blue);
 	padding: 80px 24px;
-}
-#phone {
-	transform: translate(18%, -42%);
 }
 .circle {
 	display: none;
@@ -125,24 +133,24 @@ a {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 39px;
-    margin-bottom: 56px;
+	margin-bottom: 56px;
 }
 h2 {
-    color: var(--primary-link-water-white);
-    font-size: var(--h3-big-large-size);
-    font-weight: var(--font-weight-thin);
-    margin-bottom: 16px;
+	color: var(--primary-link-water-white);
+	font-size: var(--h3-big-large-size);
+	font-weight: var(--font-weight-thin);
+	margin-bottom: 16px;
 }
 .first-para {
-    text-align: center;
-    font-weight: var(--font-weight-thin);
-    color: var(--primary-link-water-white);
-    opacity: 70%;
-    font-size: var(--p-size);
-    font-family: var(--p-font-family);
-    margin-bottom: 60px;
-    line-height: var(--p-line-height);
-}	
+	text-align: center;
+	font-weight: var(--font-weight-thin);
+	color: var(--primary-link-water-white);
+	opacity: 70%;
+	font-size: var(--p-size);
+	font-family: var(--p-font-family);
+	margin-bottom: 60px;
+	line-height: var(--p-line-height);
+}
 .second-div {
 	display: flex;
 	flex-direction: column;
@@ -172,8 +180,31 @@ h2 {
 	font-family: var(--p-font-family);
 	color: var(--secondary-Light-San-Juan-Blue);
 	width: 95%;
+	margin-bottom: 80px;
+}.third-section-reverse {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 23px 0 24px;
+}
+.second-para-reverse {
+	text-align: center;
+	font-weight: var(--font-weight-thin);
+	font-size: var(--p-size);
+	line-height: var(--p-line-height);
+	font-family: var(--p-font-family);
+	color: var(--secondary-Light-San-Juan-Blue);
+	width: 95%;
+	margin-bottom: 80px;
 }
 @media screen and (min-width: 321px) {
+	#phone {
+		top: 35%;
+		right: 60%;
+		width: 159px;
+		height: 300px;
+	}
 	header {
 		display: flex;
 		align-items: center;
@@ -190,18 +221,18 @@ h2 {
 		font-weight: var(--font-weight-bold);
 	}
 	.first-sect {
-		padding: 0 98px 0 97px;
+		gap: 24px;
+		padding: 0 0px 0 0px;
 	}
 	section {
 		display: flex;
 		flex-direction: column;
-		gap: 24px;
 		width: 100%;
 	}
 	h1 {
 		display: flex;
 		margin: auto;
-		width: 100%;
+		width: 80%;
 	}
 	form {
 		flex-direction: row;
@@ -210,8 +241,8 @@ h2 {
 	}
 	.email {
 		position: relative;
-		left: 100px;
-		width: 60%;
+		left: 0px;
+		width: 350px;
 	}
 	ul {
 		display: flex;
@@ -232,24 +263,37 @@ h2 {
 	#burger {
 		display: none;
 	}
-    .div-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-bottom: 64px;
-    }
-    .second-sect {
-        padding: 88px 116px;
-    }
-    h2 {
-        line-height: var(--h2-line-height);
-        font-size: var(--h2-size);
-        margin-bottom: 24px;
-    }
-    .first-para {
-        width: 80%;
-        margin-bottom: 32px;
-    }
+	.div-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-bottom: 64px;
+	}
+	.second-sect {
+		padding: 88px 116px;
+	}
+	h2 {
+		line-height: var(--h2-line-height);
+		font-size: var(--h2-size);
+		margin-bottom: 24px;
+	}
+	.first-para {
+		width: 80%;
+		margin-bottom: 32px;
+	}
+	.second-h2 {
+		font-size: var(--h2-size);
+	}
 }
 @media screen and (min-width: 769px) {
+	#phone {
+		top: 20%;
+		left: 0;
+		width: 263px;
+		height: 500px;
+	}
+	.first-sect {
+		padding: 0 0px 0 165px;
+		align-items: start;
+	}
 	body {
 		z-index: 1;
 	}
@@ -264,7 +308,7 @@ h2 {
 		width: 40%;
 		font-size: var(--h1-large-size);
 		line-height: var(--h1-large-line-height);
-		margin-right: 750px;
+		margin-right: 850px;
 	}
 	section {
 		flex-direction: column;
@@ -274,11 +318,11 @@ h2 {
 	}
 	form {
 		z-index: 1;
-		align-items: start;
+		justify-content: start;
 		flex-direction: row;
 	}
-	.email {
-		width: 30%;
+	.email {	
+		width: 450px;
 	}
 	nav {
 		z-index: 1;
@@ -301,23 +345,48 @@ h2 {
 		width: 780px;
 		border-radius: 50%;
 	}
-    .div-grid {
-        transform: scale(1.5);
-        margin: auto;
-    }
-    .second-sect {
-        flex-direction: row-reverse;
-        padding: 100px 163px 100px 165px;
-    }
-    .second-div {
-        align-items: start;
-        width: 50%;
-    }
-    h2 {
-        text-align: start;
-    }
-    .first-para {
-        text-align: start;
-        width: 70%;
-    }
+	.div-grid {
+		transform: scale(1.5);
+		margin: auto;
+	}
+	.second-sect {
+		flex-direction: row-reverse;
+		padding: 100px 163px 100px 165px;
+	}
+	.second-div {
+		align-items: start;
+		width: 50%;
+	}
+	h2 {
+		text-align: start;
+	}
+	.first-para {
+		text-align: start;
+		width: 70%;
+	}
+	.third-section {
+		flex-direction: row;
+		align-items: center;
+		gap: 125px;
+		padding: 0 23px 0 24px;
+		margin-left: 165px;
+		margin-bottom: 150px;
+	}
+	.second-para {
+		text-align: start;
+		width: 38%;
+	}
+	.second-h2 {
+		text-align: start;
+	}
+	.third-section-reverse {
+		flex-direction: row-reverse;
+	}
+	.third-div-reverse {
+		width: 30%;
+	}
+	.second-para-reverse {
+		text-align: start;
+		width: 100%;
+	}
 }
