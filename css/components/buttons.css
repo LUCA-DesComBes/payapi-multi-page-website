@@ -71,6 +71,10 @@
 		background-color: var(--normal-state-light-background-color-demo);
 		border: none;
 	}
+	.button-primary-light-ready {
+		position: absolute;
+		right: 18%;
+	}
 }
 
 @media screen and (min-width: 769px) {
