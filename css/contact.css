@@ -55,6 +55,8 @@
 .form-contact {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    text-align: start;
     gap: 24px;
 }
 .section-partenaires-contact {
@@ -70,4 +72,46 @@
     color: var(--secondary-San-Juan-Blue);
     opacity: 75%;
     margin-bottom: 32px;
+}
+
+@media screen and (min-width: 321px) {
+    .h1-contact {
+        font-size: var(--h2-size);
+        line-height: var(--h2-line-height);
+        width: 70%;
+    }
+    .textfield, textarea {
+        width: 60%;
+    }
+    .h2-contact {
+        margin-bottom: 32px;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .h1-contact {
+        justify-content: left;
+        text-align: start;
+        font-size: var(--h1-small-size);
+        line-height: var(--h1-small-line-height);
+        width: 70%;
+        margin-left: 10.313rem;
+    }
+    .circle {
+        top: -60%;
+    }
+    .section-container-contact {
+        align-items: center;
+        gap: 0;
+        flex-direction: row;
+    }
+    .form-contact {
+        width: 100%;
+    }
+    .h2-contact {
+        width: 75%;
+        margin-bottom: 32px;
+        margin-right: 8%;
+    }
 }

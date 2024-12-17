@@ -105,6 +105,10 @@
 		position: absolute;
 		right: 25%;
 	}
+	.submit-contact {
+		width: 25%;
+		margin-right: 35%;
+	}
 }
 
 @media screen and (min-width: 769px) {
@@ -128,5 +132,8 @@
 	}
 	.button-normal-submit {
 		width: 36%;
+	}
+	.submit-contact {
+		margin-bottom: 93px;
 	}
 }

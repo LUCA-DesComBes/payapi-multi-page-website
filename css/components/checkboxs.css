@@ -14,9 +14,18 @@
     line-height: 25px;
     font-weight: 400;
     gap: 26px;
+    color: #36536b;
 }
 .checkbox-contact {
     height: 24px;
     width: 24px;
     accent-color: var(--check-box-activate);
+}
+
+
+@media screen and (min-width: 321px){
+    .label-checkbox-contact {
+        margin-right: 20%;
+        width: 40%;
+    }
 }
