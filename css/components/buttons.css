@@ -66,7 +66,6 @@
 .button-normal-submit {
 	padding: var(--secondary-button-padding-dark-submit);
 	border: var(--normal-state-dark-border-submit);
-	background-color: var(--normal-state-dark-background-color-submit);
 	border-radius: 24px;
 	margin-bottom: 48px;
 }
@@ -79,6 +78,16 @@
 }
 .request:hover {
 	color: var(--hover-state-dark-color-submit);
+}
+.submit-contact {
+	padding: var(--secondary-button-padding-dark-submit);
+	border: var(--normal-state-dark-border-submit);
+	color: var(--normal-state-dark-color-submit);
+	font-size: 15px;
+	font-family: "Public Sans", sans-serif;
+	font-weight: 700;
+	border-radius: 24px;
+	width: 45%;
 }
 @media screen and (min-width: 321px) {
 	.button-primary-light-nav {

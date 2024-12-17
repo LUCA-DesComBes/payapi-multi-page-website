@@ -1,22 +1,43 @@
 
 :root {
     --text-field-label-normal: #9ba9b4;
-    --text-field-border_bottom-normal: #9ba9b4;
+    --text-field-border_bottom-normal: #9ba9b4 1px solid;
 
     --text-field-label-activate: #3a5266;
-    --text-field-border_bottom-activate: #3a5266;
+    --text-field-border_bottom-activate: #3a5266 1px solid;
 
     --text-field-label-error: #ef8787;
-    --text-field-border_bottom-error: #ef8787;
+    --text-field-border_bottom-error: #ef8787 1px solid;
 
     --text-area-label-normal: #9ba9b4;
-    --text-area-border_bottom-normal: #9ba9b4;
+    --text-area-border_bottom-normal: #9ba9b4 1px solid;
 
     --text-area-label-activate: #3a5266;
-    --text-area-border_bottom-activate: #3a5266;
+    --text-area-border_bottom-activate: #3a5266 1px solid;
 
     --text-area-label-error: #ef8787;
-    --text-area-border_bottom-error: #ef8787;
+    --text-area-border_bottom-error: #ef8787 1px solid;
 
 }
-
+.textfield {
+    background-color: #EDF3F8;
+    font-family: "Public Sans", sans-serif;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    border: none;
+    border-bottom: var(--text-field-border_bottom-normal);
+}
+.textfield::placeholder {
+    color: #9ba9b4;
+}
+textarea {
+    background-color: #EDF3F8;
+    font-family: "Public Sans", sans-serif;
+    padding-bottom: 64px;
+    padding-left: 20px;
+    border: none;
+    border-bottom: var(--text-field-border_bottom-normal);
+}
+textarea::placeholder {
+    color: #9ba9b4;
+}

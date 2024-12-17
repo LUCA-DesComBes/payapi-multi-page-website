@@ -6,3 +6,17 @@
 
     --check-box-disabled: #f5f6f8;
 }
+.label-checkbox-contact {
+    display: flex;
+    align-items: center;
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    gap: 26px;
+}
+.checkbox-contact {
+    height: 24px;
+    width: 24px;
+    accent-color: var(--check-box-activate);
+}
