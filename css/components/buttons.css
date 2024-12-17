@@ -42,6 +42,7 @@
 	padding: var(--primary-button-padding-demo);
 	background-color: var(--normal-state-light-background-color-demo);
 	border: none;
+	display: none;
 }
 .button-primary-light, .button-primary-light-ready  {
 	border-radius: var(--buttons-border-radius);
@@ -63,9 +64,12 @@
 	color: var(--normal-state-light-color-about);
 }
 @media screen and (min-width: 321px) {
+	.button-primary-light-nav {
+		display: block;
+	}
 	.button-primary-light {
 		position: absolute;
-		right: 150px;
+		right: 0;
 		border-radius: var(--buttons-border-radius);
 		padding: var(--primary-button-padding-demo);
 		background-color: var(--normal-state-light-background-color-demo);
@@ -81,7 +85,7 @@
 	.button-primary-light {
 		z-index: 2;
 		position: absolute;
-		right: 60%;
+		right: 0;
 		border-radius: var(--buttons-border-radius);
 		padding: var(--primary-button-padding-demo);
 		background-color: var(--normal-state-light-background-color-demo);

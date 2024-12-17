@@ -184,6 +184,7 @@ footer {
 		width: 100%;
 	}
     form {
+		position: relative;	
 		flex-direction: row;
 		align-items: center;
 		gap: 0;
@@ -294,4 +295,4 @@ footer {
 		transform: scale(1);
 		gap: 24px;
 	}
-}
+}	
