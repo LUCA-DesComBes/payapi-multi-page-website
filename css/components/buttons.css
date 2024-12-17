@@ -23,7 +23,7 @@
 	--disabled-state-light-border-about: 1px solid #8d9097;
 	--disabled-state-light-background-color-about: #1b262f;
 
-	--secondary-button-padding-dark-submit: 16px 25px 14px 28px;
+	--secondary-button-padding-dark-submit: 16px 28px 14px 28px;
 	--normal-state-dark-color-submit: #36536b;
 	--normal-state-dark-border-submit: 1px solid #36536b;
 	--normal-state-dark-background-color-submit: #ffffff;
@@ -63,6 +63,23 @@
 .about {
 	color: var(--normal-state-light-color-about);
 }
+.button-normal-submit {
+	padding: var(--secondary-button-padding-dark-submit);
+	border: var(--normal-state-dark-border-submit);
+	background-color: var(--normal-state-dark-background-color-submit);
+	border-radius: 24px;
+	margin-bottom: 48px;
+}
+.button-normal-submit:hover {
+	border: var(--hover-state-dark-border-submit);
+	background-color: var(--hover-state-dark-background-color-submit);
+}
+.request {
+	color: var(--normal-state-dark-color-submit);
+}
+.request:hover {
+	color: var(--hover-state-dark-color-submit);
+}
 @media screen and (min-width: 321px) {
 	.button-primary-light-nav {
 		display: block;
@@ -99,5 +116,8 @@
 		padding: var(--primary-button-padding-demo);
 		background-color: var(--normal-state-light-background-color-demo);
 		border: none;
+	}
+	.button-normal-submit {
+		width: 36%;
 	}
 }

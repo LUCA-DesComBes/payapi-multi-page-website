@@ -106,13 +106,6 @@ hr {
 .request {
 	display: flex;
 	justify-content: center;
-	font-weight: var(--font-weight-bold);
-	padding: 16px 28px 14px 28px;
-	color: var(--secondary-San-Juan-Blue);
-	font-size: var(--p-size);
-	border: var(--secondary-San-Juan-Blue) 1px solid;
-	margin: 0 46px 48px 46px;
-	border-radius: 24px;
 }
 
 @media screen and (min-width: 321px) {
@@ -122,9 +115,6 @@ hr {
 	}
 	.not-valid {
 		margin-left: 40%;
-	}
-	.request {
-		margin: 0 16px 48px 16px;
 	}
 }
 
@@ -157,7 +147,6 @@ hr {
 		width: 70%;
 	}
 	.request {
-		width: 36%;
 		justify-content: left;
 	}
 	.not-valid, .h1-pricing {
