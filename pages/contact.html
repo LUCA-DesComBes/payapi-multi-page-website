@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/contact.css" />
-    <link rel="stylesheet" href="/css/home.css" />
-    <link rel="stylesheet" href="/css/components/buttons.css">
-    <link rel="stylesheet" href="/css/components/inputs.css">
-    <link rel="stylesheet" href="/css/components/checkboxs.css">    
-    <title>Contact</title>
-</head>
-<body>  
-    <div class="circle"></div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/normalize.css" />
+		<link rel="stylesheet" href="/css/reset.css" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/contact.css" />
+		<link rel="stylesheet" href="/css/home.css" />
+		<link rel="stylesheet" href="/css/components/buttons.css" />
+		<link rel="stylesheet" href="/css/components/inputs.css" />
+		<link rel="stylesheet" href="/css/components/checkboxs.css" />
+		<title>Contact</title>
+	</head>
+	<body>
+		<div class="circle"></div>
 		<header>
 			<img src="/assets/logo.svg" alt="logo-payapi" />
 			<nav>
@@ -29,7 +29,33 @@
 			</nav>
 			<img src="/assets/menu-burger.svg" alt="menu-burger" id="burger" />
 		</header>
-        <section class="ready-section">
+		<h1>Submit a help request and we’ll get in touch shortly.</h1>
+		<section class="section-container-contact">
+			<form action="" class="form-contact">
+				<input type="text" name="name" class="textfield" placeholder="Name"/>
+				<input type="email" name="email" id="" class="textfield" placeholder="Email"/>
+                <input type="text" name="company" class="textfield" placeholder="Company Name"/>
+                <input type="text" name="title" class="textfield" placeholder="Title"/>
+				<textarea name="message" id="" placeholder="Message"></textarea>
+                <label for="" class="label-checkbox-contact">
+                    <input type="checkbox" name="" id="">
+                    Stay up-to-date with company announcements and updates to our API
+                </label>
+				<button type="submit"></button>
+			</form>
+			<section class="section-partenaires-contact">
+                <h2>Join the thousands of innovators already building with us</h2>
+                <div class="div-grid">
+					<img src="/assets/tesla-dark.svg" alt="partenaire-tesla-dark" />
+					<img src="/assets/microsoft-dark.svg" alt="partenaire-microsoft-dark" />
+					<img src="/assets/hp-dark.svg" alt="partenaire-hp-dark" />
+					<img src="/assets/oracle-dark.svg" alt="partenaire-oracle-dark" />
+					<img src="/assets/google-dark.svg" alt="partenaire-google-dark" />
+					<img src="/assets/nvidia-dark.svg" alt="partenaire-nvidia-dark" />
+				</div>
+            </section>
+		</section>
+		<section class="ready-section">
 			<h2 class="ready">Ready to start?</h2>
 			<form action="" class="second-form">
 				<input type="text" placeholder="Enter email address" class="email" />
@@ -38,7 +64,7 @@
 				</button>
 			</form>
 		</section>
-        <footer>
+		<footer>
 			<img
 				src="/assets/logo-footer.svg"
 				alt="logo-footer"
@@ -63,11 +89,5 @@
 				/></a>
 			</div>
 		</footer>
-        <form action="" class="form-contact">
-            <input type="text" name="name" class="name">
-            <input type="email" name="email" id="" class="email">
-            <textarea name="message" id=""></textarea>
-            <button type="submit"></button>
-        </form>
-</body>
+	</body>
 </html>
