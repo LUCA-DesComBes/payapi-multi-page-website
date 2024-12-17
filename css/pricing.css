@@ -40,6 +40,14 @@
 	--font-weight-bold: 700;
 	--font-weight-thin: 400;
 }
+.h1-pricing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 4.313rem;
+	font-size: var(--h2-size);
+	line-height: var(--h2-line-height);
+}
 .container-section {
 	display: flex;
 	flex-direction: column;
@@ -56,7 +64,7 @@
 	font-size: var(--p-size);
 	line-height: var(--p-line-height);
 	color: var(--secondary-Light-San-Juan-Blue);
-	font-weight: 500;
+	font-weight: var(--font-weight-thin);
 }
 .h3-pricing {
 	font-weight: var(--font-weight-thin);
@@ -96,11 +104,63 @@ hr {
 	margin-left: 37%;
 }
 .request {
-    font-weight: var(--font-weight-bold);
-    padding: 16px 28px 14px 28px;
-    color: var(--secondary-San-Juan-Blue);
-    font-size: var(--p-size);
-    border: var(--secondary-San-Juan-Blue) 1px solid;
-    margin: 0 46px 48px 46px;
-    border-radius: 24px;
+	display: flex;
+	justify-content: center;
+	font-weight: var(--font-weight-bold);
+	padding: 16px 28px 14px 28px;
+	color: var(--secondary-San-Juan-Blue);
+	font-size: var(--p-size);
+	border: var(--secondary-San-Juan-Blue) 1px solid;
+	margin: 0 46px 48px 46px;
+	border-radius: 24px;
+}
+
+@media screen and (min-width: 321px) {
+	.container-section {
+		flex-direction: row;
+		gap: 10px;
+	}
+	.not-valid {
+		margin-left: 40%;
+	}
+	.request {
+		margin: 0 16px 48px 16px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	body {
+		overflow-x: hidden;
+	}
+	.h1-pricing {
+		justify-content: start;
+	}
+	.circle {
+		top: -60%;
+	}
+	.h2-pricing {
+		font-size: var(--h3-big-large-size);
+	}
+	.para-pricing {
+		width: 65%;
+	}
+	.container-section {
+		gap: 0;
+		text-align: start;
+		margin-left: 100px;
+	}
+	.valid,
+	.not-valid {
+		margin-left: 0;
+	}
+	hr {
+		width: 70%;
+	}
+	.request {
+		width: 36%;
+		justify-content: left;
+	}
+	.not-valid, .h1-pricing {
+		margin-left: 7.5%;
+	}
 }
